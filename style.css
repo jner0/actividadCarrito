@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    border-bottom: 1px solid #ccc;
+}
+.header-container{
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+/*--------------------*/
+
+.carrito-container{
+    display: flex;
+}
+
+.table-container{
+    flex-basis: 60%;
+}
+
+
+.carrito-total{
+    flex-basis: 40%;
+    padding: 0px 40px;
+}
+
+.carrito-total td{
+    padding: 8px 15px 8px 0;
+}
+
+/*----------*/
+button {
+    background-color: white; 
+    color: black; 
+    width: 30px;
+    border: none;
+    font-size: 100%;   
+}
+input{
+    background-color: white;
+    border-radius: 6px;
+    border: 2px solid #cccccc; 
+    width: 35px;
+    height: 35px;
+    text-align: center;
+}
+
+table{
+    text-align: left;
+}
+
+th, td {
+    padding: 8px 0;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}   

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <div class="wrapper">
+            <div class="header-container">
+                <p class="header-title">agoodshop</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="wrapper">
+            <div class="carrito-container"> 
+                <table class="table table-container">
+                    <thead class="thead-container">
+                        <tr>
+                            <th scope="col">Producto</th>
+                            <th scope="col">Cantidad</th>
+                            <th scope="col">Unidad</th>
+                            <th scope="col">Total</th>
+                        </tr>
+                    </thead>
+                    <tbody id="items"></tbody>
+                </table>
+                
+                <div class="carrito-total">
+                    <table class="table table-striped ">
+                      <thead>
+                        <th>Total</th> 
+                      </thead>
+                      <tbody id="informacion"></tbody>
+                      <tfoot>
+                        <th>Total</th>
+                        <th id="totalPagar">0.00</th>
+                      </tfoot>
+                    </table>  
+                  </div>
+
+            </div>
+        
+        </div>
+    </main> 
+    <script src="./producto.js"></script>
+    <script src="./carrito.js"></script>
+    <script src="./scripts.js"></script>
+</body>
+</html>
